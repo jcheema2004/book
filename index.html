@@ -1,136 +1,840 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lora:ital@1&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lora:ital@1&family=Roboto:ital,wght@0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Cherry+Bomb+One&family=Lora:ital@1&family=Roboto:ital,wght@0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Cherry+Bomb+One&family=Lora:ital@1&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Cherry+Bomb+One&family=Heebo:wght@500&family=Lora:ital@1&family=Roboto:ital,wght@0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <style>
-        /**{background-color: grey;}*/
-        table,
-        th,
-        tr {
-            border-collapse: collapse;
-            border-bottom: 1px solid dimgray;
-           
-        }
-
-        th,
-        td {
-            width: 22%;
-            text-align: left;
-            padding: 10px;
-        }
-
-        table {
-            width: 100%;
-        }
-
-        .img {
-            width: 45%;
-        }
-
-        .t1>th {
-            background-color: darkgray;
-            color: black;
-            height: 80px;
-        }
-
-        th {
-            font-size: xx-large;
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
         }
 
         .d1 {
-            overflow: auto;
-            border-radius: 40px;
-            box-sizing: border-box;
-            padding: 0px;
-            border: 10px solid black;
-            width: 90%;
-            margin: auto;
-        }
-
-        .c4 {
-            background-color: rgb(12, 12, 165);
-            color: rgb(255, 255, 255);
-            border-radius: 20px;
-            border: 10px outset burlywood;
-            width: 40%;
-            box-shadow: 20px 20px 10px black;
-            font-size: large;
-            padding: 10px;
+            width: 80%;
+            height: 100px;
+            background-color: rgba(211, 211, 211, 0.2);
+            margin: 18px auto;
+            text-align: center;
+            padding: 38px;
+            color: #696969ba;
+            font-style: italic;
+            font-weight: bold;
+            font-family: 'Caprasimo', cursive;
+            font-family: 'Lora', serif;
+            font-family: 'Roboto', sans-serif;
             text-decoration: none;
         }
 
-        .c5 {
-            background-color: darkolivegreen;
-            color: cadetblue;
-            font-size: xxx-large;
-            border-radius: 20px;
-            border: 10px double aquamarine;
-            width: 60%;
-            box-shadow: 20px 20px 10px black;
+        p>a:hover {
+            color: #F9629F;
+        }
+  nav {
+    position: relative;;
+  }
+        .c1 {
+            background: linear-gradient(90deg, rgba(255, 155, 227, 1) 0%, rgba(29, 71, 253, 1) 50%, rgba(69, 236, 252, 1) 100%);
+            width: 100%;
+            height: 70px;
+        }
+
+        nav>ul>li>a {
+            width: 120px;
+            height: 38px;
+            /* background-color: blanchedalmond; */
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: 'Caprasimo', cursive;
+            font-family: 'Lora', serif;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            padding: 9px;
+            display: inline-block;
+        }
+
+        nav>ul>li>a:hover {
+            color: rgba(240, 255, 255, 0.847);
+        }
+
+        nav>ul>li {
+            float: left;
+        }
+
+        nav>ul {
+            list-style-type: none;
+            padding: 16px;
+            position: absolute;
+            left: 393px;
+        }
+
+        .t2 {
+            font-family: 'Caprasimo', cursive;
+            font-family: 'Cherry Bomb One', cursive;
+            font-family: 'Lora', serif;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .c1>section>img {
+            margin-left: 136px;
+            width: 165px;
+            height: 70px;
+            padding: 10px
+        }
+
+        .c1>section {
+            float: left;
+        }
+
+        main {
+            width: 70%;
+            height: 1850px;
+            border: 2px solid transparent;
+            margin: 0px auto;
+            clear: both;
+        }
+
+        .s1 {
+            height: 200px;
+            width: 100%;
+            /* background-color: aquamarine; */
+        }
+
+        .s11 {
+            height: 200px;
+            width: 50%;
+            /* background-color: rgb(139, 143, 142); */
+            float: left;
+            padding: 3px;
+        }
+
+        .s12 {
+            height: 200px;
+            width: 50%;
+            /* background-color: rgb(13, 56, 45); */
+            float: left;
+            padding: 28px;
+
+        }
+
+        .s2 {
+            width: 100%;
+            height: 100px;
+            background-color: rgba(108, 72, 72, 0.2);
+            margin: 18px auto;
+            text-align: center;
+            padding: 38px;
+            color: #696969ba;
+            font-style: italic;
+            font-weight: bold;
+            font-family: 'Caprasimo', cursive;
+            font-family: 'Lora', serif;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+        }
+
+        nav>ul>li>ul>li>a {
+            width: 120px;
+            /* height: 28px; */
+            height: 40px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 7px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+
+        /* nav>ul>li:hover ul>li {
+            display: block;
+        } */
+
+        /* nav>ul>li>ul>li {
+            display: block;
+            position: relative;
+        } */
+
+        nav>ul>li>ul {
+            list-style-type: none;
+
+        }
+
+        nav>ul>li>ul>li {
+            position: relative;
+        }
+
+        nav>ul>li>ul>li>ul {
+            list-style-type: none;
+            position: absolute;
+            left: 122px;
+            top: 0;
+
+        }
+
+        nav>ul>li>ul>li>a:hover {
+            color: #F9629F;
+        }
+
+        nav>ul>li>ul>li>a>span {
+            font-size: small;
+            box-sizing: border-box;
+        }
+
+        nav>ul>li>ul>li>ul>li>a {
+            width: 120px;
+            /* height: 28px; */
+            height: 30px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 0px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+            /* clear: both; */
+            margin-top: 2px;
+
+
+        }
+
+
+        /* 
+        nav>ul>li>ul>li:hover ul {
+            list-style-type: none;
+        } */
+
+
+
+        /* nav>ul>li:hover ul>li>ul>li {
+            display: none;
+
+        } */
+        nav>ul>li>ul{
+            display: none
+        }
+        
+        nav>ul>li:hover   ul {
+            display: block;
+        }
+        nav>ul>li:hover ul>li>ul{
+            display: none
+        }
+        
+        nav>ul>li>ul>li:hover  ul{
+            display: block
+        }
+        
+        nav>ul>li>ul>li>ul>li:hover {
+            color: #F9629F;
+        }
+
+        .s3 {
+            width: 100%;
+            height: 40px;
+            /* background-color: aquamarine; */
+        }
+
+        .s31 {
+            width: 16%;
             padding: 10px;
+            height: 40px;
+            /* background-color: burlywood; */
+            float: left;
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
         }
 
-        tr:hover {
-            background-color: darkseagreen;
+        .s32 {
+            width: 12%;
+            padding: 7px;
+            height: 40px;
+            /* background-color: rgb(174, 104, 13); */
+            float: right;
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+            color: #F9629F;
         }
 
-        td:hover {
-            background-color: aqua;
+        .s32 :hover {
+            /* color: #F9629F; */
+            color: #ce155f;
+        }
+
+        .s4 {
+            width: 100%;
+            height: 1380px;
+            /* background-color: cornflowerblue; */
+        }
+
+        .s41 {
+            width: 33.3%;
+            height: 440px;
+            /* background-color: aliceblue; */
+            float: left;
+            padding: 8px;
+        }
+
+        .s42 {
+            width: 33.3%;
+            height: 440px;
+            /* background-color: rgb(38, 105, 164); */
+            float: left;
+            padding: 8px;
+        }
+
+        .s43 {
+            width: 33.3%;
+            height: 440px;
+            /* background-color: rgb(6, 34, 59); */
+            float: left;
+            padding: 8px;
+        }
+
+        .material-symbols-outlined {
+            vertical-align: middle;
+        }
+
+        .z1 {
+            width: 100%;
+            height: 44%;
+            /* background-color: bisque; */
+        }
+
+        .z2 {
+            width: 100%;
+            height: 44%;
+            /* background-color: cadetblue; */
+        }
+
+        .x1 {
+            width: 100%;
+            height: 247px;
+            /* background-color: aliceblue; */
+            padding: 10px;
+            /* text-align: justify; */
+        }
+
+        .x2 {
+            width: 100%;
+            height: 247px;
+            /* background-color: rgb(34, 91, 141); */
+            padding: 10px;
+            /* text-align: justify; */
+        }
+
+        .x3 {
+            width: 100%;
+            height: 247px;
+            /* background-color: rgb(5, 35, 61); */
+            padding: 10px;
+            /* text-align: justify; */
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .p1 {
+            color: #e34384;
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        .p2 {
+            color: black;
+            font-size: 1.5em;
+            font-family: 'Roboto', sans-serif;
+            /* text-decoration: 3px  underline black; */
+            text-decoration: none;
+        }
+
+        .p2:hover {
+            color: #F9629F;
+            text-decoration: 3px underline #F9629F;
+        }
+
+        .p2>a {
+            text-decoration: none;
+        }
+
+        .p3 {
+            color: lightslategray;
+            text-decoration: none;
+        }
+
+        .s5 {
+            width: 100%;
+            /* background-color: aquamarine; */
+            height: 91px;
+            padding: 10px;
+            
+        }
+
+        .s51 {
+            background-color: #F9629F;
+            text-align: center;
+            width: 200px;
+            height: 60px;   
+            padding: 18px; 
+            margin: auto;
+        }
+        .s51 > a  {
+            color: aliceblue;
+            font-size: x-large;
+            font-weight: bold;
+            text-decoration: none;
+            
+        }
+
+        .a1 {
+            background-color: #000000d9;
+            width: 100%;
+            height: 68px;
+
+        }
+
+        .ap1 {
+            width: 325px;
+            margin-left: 192px;
+            font-size: x-large;
+            color: whitesmoke;
+            /* background-color: bisque; */
+            height: 68px;
+            /* display: inline-block; */
+            padding: 16px;
+            float: left;
+        }
+
+        .ap2 {
+            width: 58px;
+            height: 68px;
+            /* display: inline-block; */
+            /* background-color: aquamarine; */
+            float: right;
+            margin-right: 15px;
+            padding: 13px;
+        }
+
+        .ap21 {
+            width: 300px;
+            height: 68px;
+            /* background-color: brown; */
+            display: inline-block;
+            margin-left: 477px;
+        }
+
+        .a2 {
+            width: 100%;
+            height: 200px;
+            background-color: black;
+
+        }
+
+        .k1 {
+            width: 523px;
+            height: 200px;
+            /* background-color: cadetblue; */
+            margin-left: 118px;
+            float: left;
+        }
+
+        .k11 {
+            width: 38%;
+            height: 200px;
+            /* background-color: darkseagreen; */
+            float: left;
+        }
+
+        .k12 {
+            width: 62%;
+            height: 200px;
+            /* background-color: rgb(136, 86, 25); */
+            float: left;
+            padding: 29px;
+        }
+
+        .k111 {
+            width: 100%;
+            height: 92px;
+            /* background-color: darkgrey; */
+            padding: 9px;
+        }
+
+        .k112 {
+            width: 100%;
+            height: 108px;
+            /* background-color: rgb(6, 81, 21); */
+
+        }
+
+        .t1 {
+            color: aliceblue;
+            font-size: x-large;
+            font-family: 'Caprasimo', cursive;
+            font-family: 'Cherry Bomb One', cursive;
+            font-family: 'Heebo', sans-serif;
+            font-family: 'Lora', serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .t2 {
+            color: aliceblue;
+            font-family: 'Caprasimo', cursive;
+            font-family: 'Cherry Bomb One', cursive;
+            font-family: 'Lora', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            text-align: justify;
+        }
+
+        .k2 {
+            width: 380px;
+            height: 48px;
+            /* background-color: burlywood; */
+            float: left;
+            margin: 35px 178px;
+        }
+
+        .k21 {
+            width: 40px;
+            height: 40px;
+            /* background-color: darkcyan; */
+            display: inline-block;
+            margin-left: 26px;
+        }
+
+        .k3 {
+            width: 278px;
+            height: 56px;
+            /* background-color: chocolate; */
+            float: right;
+            padding: 8px;
+            margin-right: 366px;
+            margin-top: -35px;
+            color: aqua;
+            font-size: large;
+        }
+
+        .img2 {
+            width: 153px;
+            height: 70px;
+            /* display: inline-block; */
+            float: left;
+            /* background-color: black; */
+            margin-left: 243px;
+            padding: 7px;
+        }
+
+        .aside1 {
+            width: 53px;
+            height: 60px;
+            background-color: #f0f014;
+            position: fixed;
+            top: 226px;
+            right: 13px;
+            padding: 8px;
+        }
+
+        .aside11 {
+            /* background-color: aquamarine; */
+            width: 37px;
+            height: 31px;
+            padding: 5px;
+        }
+
+        .aside12 {
+            /* background-color: burlywood; */
+            width: 43px;
+            height: 19px;
+            padding: 0px;
+            margin-left: -3px;
+        }
+
+        .aside2 {
+            width: 53px;
+            height: 60px;
+            background-color: #23e6e6;
+            position: fixed;
+            top: 294px;
+            right: 13px;
+            padding: 8px;
+        }
+
+        .aside21 {
+            /* background-color: aquamarine; */
+            width: 37px;
+            height: 31px;
+            padding: 5px;
+        }
+
+        .aside22 {
+            width: 43px;
+            height: 19px;
+            margin-left: 5px;
+
+
+        }
+
+        /* .t3{
+            color: azure;
+        } */
+
+        .img1 {
+            opacity: 1;
         }
     </style>
 </head>
 
 <body>
-    <br><br>
-    <h1 class="c5">American Eagle</h1>
-    <br><br><br><br>
-    <a class="c4" href="index.html">HOME PAGE </a>
-    <a class="c4" href="kindle.html">KINDLE </a>
-    <a class="c4" href="book-collection.html">BOOK COLLECTION</a>
-    <br><br><br><br>
     <div class="d1">
-        <table>
-            <tr class="t1">
-                <th colspan="4">Shopping Cart</th>
-                <th>3 items</th>
-            </tr>
-            <tr>
-                <td><img src="shopping.webp" alt="" class="img"></td>
-                <td>Shirt <br> Cotton T-shirt</td>
-                <td>- 1 +</td>
-                <td>€44.00</td>
-                <td>✘</td>
-            </tr>
-            <tr>
-                <td><img src="shopping (1).webp" alt="" class="img"></td>
-                <td>Shirt <br> Cotton T-shirt</td>
-                <td>- 1 +</td>
-                <td>€44.00</td>
-                <td>✘</td>
-            </tr>
-            <tr>
-                <td><img src="shopping (2).webp" alt="" class="img"></td>
-                <td>Shirt <br> Cotton T-shirt</td>
-                <td>- 1 +</td>
-                <td>€44.00</td>
-                <td>✘</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td colspan="2">total</td>
-                <td colspan="2">€132.00</td>
-            </tr>
-            <tr>
-                <td colspan="5">← Back to shop</td>
-            </tr>
-        </table>
+        <p><a href="">Responsive Advertisement</a></p>
     </div>
-    <br><br>
+    <nav class="c1">
+        <section>
+            <abbre title="Casper-Blogger Template"><img class="img2" src="logo.webp" alt="logo"></abbre>
+        </section>
+        <ul>
+            <!-- <li><a href="" title="Casper- Blogger Template">Casper</a></li> -->
+            <li><a href="">home</a></li>
+            <li><a href="">features <span class="material-symbols-outlined">
+                        expand_more
+                    </span></a>
+                <ul>
+                    <li><a href="">google fonts</a></li>
+                    <li><a href=""> Icon<span class="material-symbols-outlined">chevron_right </span> </a>
+                        <ul>
+                            <li><a href="">All</a></li>
+                            <li><a href="">3D</a></li>
+                            <li><a href="">2D</a></li>
+                            <li><a href="">Special</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">poppins</a></li>
+                </ul>
+            </li>
+            <li><a href="">mega menu</a></li>
+            <li><a href="">tipography</a></li>
+            <li><a href="">shortcodes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="s1">
+            <section class="s11"><img src="download.jpeg" alt=""></section>
+            <section class="s12">
+                <p class="p1">Martin Luther</p>
+                <p class="p2"><a href="">Google special images : nature is the beautiful gift to us by God </a></p>
+                <p class="p3">The nature when we come to think of it, it's a heavenly creation and has intense
+                    mysteries that has not been discoverd yet...</p>
+            </section>
+        </section>
+        <section class="s2">
+            <p><a href="">Responsive Advertisement</a></p>
+        </section>
+        <section class="s3">
+            <section class="s31">Latest Post</section>
+            <section class="s32"><a href="">View all</a></section>
+        </section>
+        <section class="s4">
+            <section class="s41">
+                <section class="z1"><img src="download (2).jpeg" alt=""></section>
+                <section class="x1">
+                    <p class="p1">Martin Luther</p>
+                    <p class="p2"><a href="">Google special images : nature is the beautiful gift to us by God </a></p>
+                    <p class="p3">The nature when we come to think of it, it's a heavenly creation and has intense
+                        mysteries that has not been discoverd yet...</p>
+                </section>
+            </section>
+            <section class="s42">
+                <section class="z2"><img src="images (1).jpeg" alt=""></section>
+                <section class="x2">
+                    <p class="p1">Martin Luther</p>
+                    <p class="p2"><a href="">Google special images : nature is the beautiful gift to us by God </a></p>
+                    <p class="p3">The nature when we come to think of it, it's a heavenly creation and has intense
+                        mysteries that has not been discoverd yet...</p>
+                </section>
+            </section>
+            <section class="s43">
+                <section class="z1"><img src="images.jpeg" alt=""></section>
+                <section class="x3">
+                    <p class="p1">Martin Luther</p>
+                    <p class="p2"><a href="">Google special images : nature is the beautiful gift to us by God </a></p>
+                    <p class="p3">The nature when we come to think of it, it's a heavenly creation and has intense
+                        mysteries that has not been discoverd yet...</p>
+                </section>
+            </section>
+            <section class="s41">
+                <section class="z1"><img src="download (2).jpeg" alt=""></section>
+                <section class="x1">
+                    <p class="p1">Martin Luther</p>
+                    <p class="p2"><a href="">Google special images : nature is the beautiful gift to us by God </a></p>
+                    <p class="p3">The nature when we come to think of it, it's a heavenly creation and has intense
+                        mysteries that has not been discoverd yet...</p>
+                </section>
+            </section>
+            <section class="s42">
+                <section class="z2"><img src="images (1).jpeg" alt=""></section>
+                <section class="x2">
+                    <p class="p1">Martin Luther</p>
+                    <p class="p2"><a href="">Google special images : nature is the beautiful gift to us by God </a></p>
+                    <p class="p3">The nature when we come to think of it, it's a heavenly creation and has intense
+                        mysteries that has not been discoverd yet...</p>
+                </section>
+            </section>
+            <section class="s43">
+                <section class="z1"><img src="images.jpeg" alt=""></section>
+                <section class="x3">
+                    <p class="p1">Martin Luther</p>
+                    <p class="p2"><a href="">Google special images : nature is the beautiful gift to us by God </a></p>
+                    <p class="p3">The nature when we come to think of it, it's a heavenly creation and has intense
+                        mysteries that has not been discoverd yet...</p>
+                </section>
+            </section>
+            <section class="s41">
+                <section class="z1"><img src="download (2).jpeg" alt=""></section>
+                <section class="x1">
+                    <p class="p1">Martin Luther</p>
+                    <p class="p2"><a href="">Google special images : nature is the beautiful gift to us by God </a></p>
+                    <p class="p3">The nature when we come to think of it, it's a heavenly creation and has intense
+                        mysteries that has not been discoverd yet...</p>
+                </section>
+            </section>
+            <section class="s42">
+                <section class="z2"><img src="images (1).jpeg" alt=""></section>
+                <section class="x2">
+                    <p class="p1">Martin Luther</p>
+                    <p class="p2"><a href="">Google special images : nature is the beautiful gift to us by God </a></p>
+                    <p class="p3">The nature when we come to think of it, it's a heavenly creation and has intense
+                        mysteries that has not been discoverd yet...</p>
+                </section>
+            </section>
+            <section class="s43">
+                <section class="z1"><img src="images.jpeg" alt=""></section>
+                <section class="x3">
+                    <p class="p1">Martin Luther</p>
+                    <p class="p2"><a href="">Google special images : nature is the beautiful gift to us by God </a></p>
+                    <p class="p3">The nature when we come to think of it, it's a heavenly creation and has intense
+                        mysteries that has not been discoverd yet...</p>
+                </section>
+            </section>
+        </section>
+        <section class="s5">
+            <section class="s51">
+                <a href="../abc.html">
+                    <p>LOOK MORE</p>
+                </a>
+            </section>
+        </section>
+    </main>
+    <article class="a1">
+        <div class="ap1">
+            <p>designed by- Jasmine Cheema</p>
+        </div>
+        <div class="ap21">
+            <div class="ap2"><a href=""><img src="download.png" alt=""></a>
+            </div>
+            <div class="ap2"><a href="../..js1.html"><img src="download (1).png" alt=""></a></div>
+            <div class="ap2"><a href=""><img src="download (2).png" alt=""></a>
+            </div>
+            <div class="ap2"><a href=""><img src="download (3).png" alt=""></a>
+            </div>
+        </div>
+    </article>
+    <article class="a2">
+        <div class="k1">
+            <div class="k11">
+                <div class="k111"><img src="images (1).png" alt=""></div>
+                <div class="k112"></div>
+            </div>
+            <div class="k12">
+                <p class="t1">About</p>
+                <p class="t2">This website is a blog created by the creator(refferred as designer above) to give sample
+                    of a structure and design that could be made or used.</p>
+                <!-- <p class="t3">it's a copyright so do not copy it.</p> -->
+            </div>
+        </div>
+        <div class="k2">
+            <div class="k21"><a href="https://www.facebook.com/"><img src="download (5).png" alt=""></a>
+            </div>
+            <div class="k21"><a href="../..js1.html"><img src="download (1).png" alt=""></a></div>
+            <div class="k21"><a href="https://www.youtube.com/watch?v=Y1xs_xPb46M&list=RDY1xs_xPb46M&start_radio=1"><img
+                        src="download (2).png" alt=""></a>
+            </div>
+            <div class="k21"><a href=""><img src="download (3).png" alt=""></a>
+            </div>
+            <div class="k21"><a href=""><img src="download (6).png" alt=""></a>
+            </div>
+        </div>
+        <div class="k3">
+            <p>please check the above links for further information</p>
+        </div>
+    </article>
+    <aside class="aside1">
+        <aside class="aside11"><a href=""><span class="material-symbols-outlined">
+                    menu
+                </span></a>
+        </aside>
+        <aside class="aside12">
+            <p style="font-weight: bold;">Demo</p>
+        </aside>
+    </aside>
+    <aside class="aside2">
+        <aside class="aside21"><a href=""><span class="material-symbols-outlined">
+                    info
+                </span> </a>
+        </aside>
+        <aside class="aside22">
+            <p style="font-weight: bold;">info</p>
+        </aside>
+    </aside>
 </body>
 
 </html>
